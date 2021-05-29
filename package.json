@@ -1,0 +1,27 @@
+{
+  "name": "helphelper-server",
+  "version": "1.0.0",
+  "description": "Help Helper Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "server": "nodemon server.js",
+    "client": "npm start --prefix client",
+    "dev": "npm run start"
+  },
+  "author": "thoushif",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "0.21.1",
+    "body-parser": "1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "firebase": "^8.4.3",
+    "firebase-admin": "^9.8.0",
+    "mongoose": "^5.12.10",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
